@@ -199,7 +199,7 @@ export default function Contact() {
         },
         body: JSON.stringify({
           content: emailContent,
-          prompt: mode === "ai" ? prompt : "Manual Email",
+          prompt: mode !== "ai" ? prompt : "Manual Email",
           senderName: mode === "manual" ? senderName : undefined,
           senderEmail: mode === "manual" ? senderEmail : undefined,
           subject: subject,
@@ -410,8 +410,8 @@ export default function Contact() {
                 transition={{ delay: 0.2 }}
                 className="text-xl text-center text-gray-400"
               >
-                Choose between AI-powered email generation or write your message
-                manually
+                If you need any help, please feel free to connect with me
+                anytime.
               </motion.p>
             </div>
 
@@ -441,44 +441,6 @@ export default function Contact() {
         {/* Main Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 pb-16">
           {/* Mode Selector - Updated for cyberpunk theme */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 }}
-            className="flex justify-center mb-8 items-center gap-4"
-          >
-            <div className="inline-flex p-1 space-x-1 bg-neutral-900/50 backdrop-blur-lg rounded-xl border border-indigo-500/20">
-              {["ai", "manual"].map((m) => (
-                <motion.button
-                  key={m}
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                  onClick={(e) => {
-                    setMode(m as "ai" | "manual");
-                    setShowTemplates(false);
-                    // Don't clear emailContent when switching modes
-                  }}
-                  className={`px-6 py-2.5 rounded-lg text-sm font-medium transition-all duration-300 flex items-center gap-2 ${
-                    mode === m
-                      ? "bg-gradient-to-r from-blue-500 via-indigo-600 to-cyan-500 text-white shadow-lg shadow-indigo-500/25"
-                      : "text-gray-400 hover:text-white hover:bg-white/5"
-                  }`}
-                >
-                  {m === "ai" ? (
-                    <>
-                      <Sparkles className="w-4 h-4" />
-                      AI Assistant
-                    </>
-                  ) : (
-                    <>
-                      <FileText className="w-4 h-4" />
-                      Manual Mode
-                    </>
-                  )}
-                </motion.button>
-              ))}
-            </div>
-          </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* Left Column */}
@@ -488,7 +450,7 @@ export default function Contact() {
               transition={{ delay: 0.4 }}
               className="space-y-4"
             >
-              {mode === "ai" ? (
+              {mode !== "ai" ? (
                 <div className="p-4 rounded-2xl bg-neutral-900/50 backdrop-blur-lg border border-indigo-500/20 relative">
                   <div className="flex justify-between items-center mb-3">
                     <h2 className="text-lg font-semibold text-gray-200 flex items-center gap-2">
@@ -703,7 +665,7 @@ export default function Contact() {
                 <div className="flex justify-between items-center mb-3">
                   <h2 className="text-lg font-semibold text-gray-200 flex items-center gap-2">
                     <span className="text-cyan-400">📧</span>
-                    {mode === "ai" ? "Generated Email" : "Your Message"}
+                    {mode !== "ai" ? "Generated Email" : "Your Message"}
                   </h2>
                   <div className="flex items-center gap-3">
                     {/* History Toggle Button */}
@@ -769,7 +731,7 @@ export default function Contact() {
                 </div>
 
                 <div className="relative h-[350px] rounded-xl overflow-hidden border border-indigo-500/20">
-                  {mode === "ai" ? (
+                  {mode !== "ai" ? (
                     <div className="absolute inset-0 w-full h-full bg-neutral-800/40 px-3 py-2 text-white overflow-auto">
                       {emailContent ? (
                         isTextAnimating ? (
@@ -787,15 +749,7 @@ export default function Contact() {
                           />
                         )
                       ) : (
-                        <div className="flex items-center justify-center h-full text-gray-500 text-sm italic">
-                          <div className="text-center">
-                            <Sparkles className="w-5 h-5 mx-auto mb-2 text-cyan-400/50" />
-                            <p>
-                              Enter a prompt and click "Generate" to create an
-                              email
-                            </p>
-                          </div>
-                        </div>
+                        <div className="flex items-center justify-center h-full text-gray-500 text-sm italic"></div>
                       )}
                     </div>
                   ) : (
@@ -809,11 +763,11 @@ export default function Contact() {
                 </div>
 
                 {/* deephermes-3-llama-3 Attribution */}
-                {mode === "ai" && (
+                {mode !== "ai" && (
                   <div className="mt-2 flex items-center justify-end">
                     <div className="text-xs text-gray-500 flex items-center gap-1.5">
                       <Sparkles className="w-3 h-3 text-cyan-400" />
-                      <span>Powered by llama-3.2</span>
+                      <span>Welcome to my portfolio</span>
                     </div>
                   </div>
                 )}

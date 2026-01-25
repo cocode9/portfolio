@@ -87,26 +87,25 @@ export default function About() {
                 id="about-description-1"
                 className="text-lg md:text-xl text-neutral-300 leading-relaxed"
               >
-                I&apos;m always looking out for new things to explore. I love to
-                collaborate with like-minded people who are fueled by curiosity.
-                I play around Golang and Javascript ecosystems for my web dev
-                projects.
+                I&apos;m a technically driven developer with hands-on experience
+                building and refining systems through clean, maintainable code.
               </p>
 
               <p
                 id="about-description-2"
                 className="text-lg md:text-xl text-neutral-300 leading-relaxed"
               >
-                Currently I&apos;m diving into Machine Learning after watching
-                many cool projects built around image generators and i&apos;m
-                ready to dive into it
+                I&apos;m comfortable working with modern development workflows,
+                learning new engines and frameworks quickly, and translating
+                design ideas into functional implementations.
               </p>
 
               <div
                 id="about-hobbies"
                 className="text-lg md:text-xl text-neutral-300 leading-relaxed"
               >
-                When i&apos;m not coding, i usually
+                I enjoy problem-solving at a systems level, optimizing
+                performance, and iterating based on feedback.
                 <FlipWords words={words} className="text-white" />
               </div>
 

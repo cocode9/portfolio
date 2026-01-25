@@ -10,7 +10,7 @@ import { TiltCard } from "@/components/ui/tilt-card";
 // Define image metadata for SEO
 const imageMetadata = {
   profile1: {
-    url: "/rushikesh_nimkar.jpg",
+    url: "/taku.png",
     alt: "Rushikesh Nimkar - Full Stack Developer Primary Profile",
     width: 800,
     height: 800,
@@ -24,7 +24,6 @@ const imageMetadata = {
 };
 
 export default function HomePage() {
-
   return (
     <>
       {/* Add structured data for images to be indexed by Google */}
@@ -63,10 +62,7 @@ export default function HomePage() {
             className="flex-1 flex justify-center relative order-1 md:order-2"
           >
             <TiltCard className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96">
-              <div
-                id="home-profile-image-container"
-                className="w-full h-full"
-              >
+              <div id="home-profile-image-container" className="w-full h-full">
                 {/* Background glow */}
                 <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500/20 to-cyan-500/20 filter blur-[80px] -z-10" />
 
@@ -94,15 +90,15 @@ export default function HomePage() {
                 </div>
 
                 {/* Floating tech badge */}
-                <div
-                  className="absolute -bottom-4 -right-4 bg-neutral-900/90 border border-cyan-500/30 backdrop-blur-md px-4 py-2 rounded-lg shadow-xl z-30"
-                >
+                <div className="absolute -bottom-4 -right-4 bg-neutral-900/90 border border-cyan-500/30 backdrop-blur-md px-4 py-2 rounded-lg shadow-xl z-30">
                   <div className="flex items-center gap-2">
                     <span className="relative flex h-2 w-2">
                       <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                       <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                     </span>
-                    <span className="text-xs font-mono text-cyan-400">OPEN TO WORK</span>
+                    <span className="text-xs font-mono text-cyan-400">
+                      ALWAYS READY
+                    </span>
                   </div>
                 </div>
               </div>
@@ -114,23 +110,32 @@ export default function HomePage() {
             id="home-text-content"
             className="flex-1 text-center md:text-left space-y-4 md:space-y-8 order-2 md:order-1"
           >
-            <div id="home-title" className="text-2xl sm:text-4xl md:text-6xl lg:text-6xl font-bold">
-              <span className="text-white">Hi, I&apos;m</span> <br className="hidden sm:block" />
-              <span className="text-blue-500">Rushikesh Nimkar</span>
+            <div
+              id="home-title"
+              className="text-2xl sm:text-4xl md:text-6xl lg:text-6xl font-bold"
+            >
+              <span className="text-white">Hi, I&apos;m</span>{" "}
+              <br className="hidden sm:block" />
+              <span className="text-blue-500">Taku Yamamoto</span>
             </div>
 
-            <div id="home-subtitle" className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400">
-              <span className="text-gray-400">Full Stack Developer | Tech Enthusiast</span>
+            <div
+              id="home-subtitle"
+              className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400"
+            >
+              <span className="text-gray-400">
+                Full Stack Developer | AI Engineer
+              </span>
             </div>
 
             <p
               id="home-description"
               className="text-sm sm:text-base md:text-lg text-gray-500 max-w-xl mx-auto md:mx-0"
             >
-              I turn coffee into code and bugs into features. Full-stack
-              developer who enjoys building digital puzzles and occasionally
-              solving them. Currently exploring blockchain, because why not add
-              more blocks to my stacks?
+              What really resonates with me is the belief that success isn’t
+              just about technology or services, but about creating meaningful
+              value for both users and society. Beautiful ambition, refined
+              demeanor, and burning passion walk with me through life.
             </p>
 
             <div
@@ -155,7 +160,7 @@ export default function HomePage() {
                       onClick={() => (window.location.href = "/resume")}
                       className="relative z-10 w-full px-6 py-[6px] flex items-center justify-center gap-2 text-sm md:text-base"
                     >
-                      <span className="text-white">View CV</span>
+                      <span className="text-white">Resume</span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-4 w-4 text-white"
@@ -194,7 +199,7 @@ export default function HomePage() {
                       }
                       className="relative z-10 w-full px-6 py-[6px] flex items-center justify-center gap-2 text-sm md:text-base"
                     >
-                      <span className="text-white">Sponsor</span>
+                      <span className="text-white">Target</span>
                       <svg
                         height="16"
                         viewBox="0 0 16 16"
@@ -216,7 +221,7 @@ export default function HomePage() {
               >
                 <MagneticButton>
                   <a
-                    href="https://github.com/Rushikeshnimkar"
+                    href="https://github.com/taku"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-500 transition-colors duration-300 block p-2"
@@ -226,7 +231,7 @@ export default function HomePage() {
                 </MagneticButton>
                 <MagneticButton>
                   <a
-                    href="https://www.linkedin.com/in/rushikesh-nimkar-0961361ba/"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-500 transition-colors duration-300 block p-2"
@@ -236,7 +241,7 @@ export default function HomePage() {
                 </MagneticButton>
                 <MagneticButton>
                   <a
-                    href="https://x.com/RushikeshN22296"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-500 transition-colors duration-300 block p-2"

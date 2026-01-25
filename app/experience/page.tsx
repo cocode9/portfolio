@@ -5,108 +5,7 @@ import { FiMapPin, FiAward, FiBriefcase, FiBook } from "react-icons/fi";
 export default function ExperiencePage() {
   const data = [
     {
-      title: "Present",
-      content: (
-        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-          <div className="flex-shrink-0 pt-1">
-            <FiBook className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400" />
-          </div>
-          <div className="space-y-2 min-w-0">
-            <h3 className="text-base sm:text-lg font-semibold text-white leading-tight">
-              Postgraduate Diploma in Advanced Computing
-            </h3>
-            <div className="flex items-center gap-2 text-neutral-400 text-xs sm:text-sm">
-              <FiMapPin className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
-              <span className="truncate">CDAC SMVITA, Mumbai, IN</span>
-            </div>
-            <p className="text-neutral-300 text-xs sm:text-sm leading-relaxed">
-              Currently pursuing a Postgraduate Diploma in Advanced Computing
-              (PG-DAC) from CDAC SMVITA, Mumbai. Focusing on full-stack
-              development, cloud technologies, and hands-on project building.
-            </p>
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "Feb 2024 - Feb 2025",
-      content: (
-        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-          <div className="flex-shrink-0 pt-1">
-            <FiBriefcase className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400" />
-          </div>
-          <div className="space-y-2 min-w-0">
-            <h3 className="text-base sm:text-lg font-semibold text-white leading-tight">
-              Fullstack Developer
-            </h3>
-            <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 text-neutral-400 text-xs sm:text-sm">
-              <span className="font-medium">Lazarus Network</span>
-              <span className="hidden sm:inline">•</span>
-              <span>Remote</span>
-            </div>
-            <div className="space-y-3 text-xs sm:text-sm text-neutral-300">
-              <p className="leading-relaxed">
-                Full-stack development role focusing on building scalable web
-                applications and maintaining cloud infrastructure.
-              </p>
-              <ul className="space-y-2">
-                <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1 flex-shrink-0">▹</span>
-                  <span className="leading-relaxed">
-                    Developed backend services using Golang and Node.js
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1 flex-shrink-0">▹</span>
-                  <span className="leading-relaxed">
-                    Built responsive frontends with Next.js and React
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1 flex-shrink-0">▹</span>
-                  <span className="leading-relaxed">
-                    Managed AWS EC2 and Google Cloud infrastructure
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1 flex-shrink-0">▹</span>
-                  <span className="leading-relaxed">
-                    Implemented CI/CD pipelines with GitHub Actions
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "2020-2024",
-      content: (
-        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-          <div className="flex-shrink-0 pt-1">
-            <FiBook className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400" />
-          </div>
-          <div className="space-y-2 min-w-0">
-            <h3 className="text-base sm:text-lg font-semibold text-white leading-tight">
-              Bachelor of Engineering
-            </h3>
-            <div className="flex items-center gap-2 text-neutral-400 text-xs sm:text-sm">
-              <FiMapPin className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
-              <span>Pune, IN</span>
-            </div>
-            <p className="text-neutral-300 text-xs sm:text-sm leading-relaxed">
-              Graduated with BE in Computer Engineering, focusing on software
-              development and computer science fundamentals. Developed strong
-              problem-solving skills and technical expertise through
-              comprehensive coursework and practical projects.
-            </p>
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "Awards and Honors",
+      title: "Jump in Dev World",
       content: (
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
           <div className="flex-shrink-0 pt-1">
@@ -164,44 +63,144 @@ export default function ExperiencePage() {
                 </div>
               </div>
             </div>
-
-            {/* Sui Overflow */}
-            <div className="space-y-2">
-              <div className="flex items-start sm:items-center gap-3">
-                <span className="flex-shrink-0 w-2 h-2 rounded-full bg-blue-400 mt-2 sm:mt-0" />
-                <h4 className="text-white font-medium text-sm sm:text-base leading-tight">
-                  Sui Overflow 2024
-                </h4>
-              </div>
-              <div className="pl-3 sm:pl-5">
-                <p className="text-neutral-300 text-xs sm:text-sm leading-relaxed">
-                  Awarded the{" "}
-                  <span className="text-blue-400 font-medium">
-                    Community Favorite Award
-                  </span>{" "}
-                  for Mystic Tarot - an innovative Web3 tarot reading platform
-                  on the Sui Network, showcasing expertise in blockchain and
-                  user-centric design.
-                </p>
-                <div className="flex flex-wrap gap-1.5 sm:gap-2 mt-2">
-                  <span className="px-2 py-1 bg-blue-500/10 text-blue-400 text-xs rounded-full whitespace-nowrap">
-                    Community Favorite
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "2020 - 2022",
+      content: (
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+          <div className="flex-shrink-0 pt-1">
+            <FiBriefcase className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400" />
+          </div>
+          <div className="space-y-2 min-w-0">
+            <h3 className="text-base sm:text-lg font-semibold text-white leading-tight">
+              Fullstack Developer
+            </h3>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 text-neutral-400 text-xs sm:text-sm">
+              <span className="font-medium">Lazarus Network</span>
+              <span className="hidden sm:inline">•</span>
+              <span>Remote</span>
+            </div>
+            <div className="space-y-3 text-xs sm:text-sm text-neutral-300">
+              <p className="leading-relaxed">
+                Full-stack development role focusing on building scalable web
+                applications and maintaining cloud infrastructure.
+              </p>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1 flex-shrink-0">▹</span>
+                  <span className="leading-relaxed">
+                    Developed backend services using Golang and Node.js
                   </span>
-                  <span className="px-2 py-1 bg-blue-500/10 text-blue-400 text-xs rounded-full whitespace-nowrap">
-                    Web3
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1 flex-shrink-0">▹</span>
+                  <span className="leading-relaxed">
+                    Built responsive frontends with Next.js and React
                   </span>
-                  <span className="px-2 py-1 bg-blue-500/10 text-blue-400 text-xs rounded-full whitespace-nowrap">
-                    Sui Network
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1 flex-shrink-0">▹</span>
+                  <span className="leading-relaxed">
+                    Managed AWS EC2 and Google Cloud infrastructure
                   </span>
-                </div>
-              </div>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1 flex-shrink-0">▹</span>
+                  <span className="leading-relaxed">
+                    Implemented CI/CD pipelines with GitHub Actions
+                  </span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       ),
     },
-  ];
 
+    {
+      title: "March 2022 - March 2024",
+      content: (
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+          <div className="flex-shrink-0 pt-1">
+            <FiBriefcase className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400" />
+          </div>
+          <div className="space-y-2 min-w-0">
+            <h3 className="text-base sm:text-lg font-semibold text-white leading-tight">
+              Blockchain Developer
+            </h3>
+            <div className="space-y-3 text-xs sm:text-sm text-neutral-300">
+              <p className="leading-relaxed">
+                I have extensive, hands-on experience building production-grade
+                Web3 systems across NFT marketplaces, crypto payment platforms,
+                and multi-chain decentralized applications.
+              </p>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1 flex-shrink-0">▹</span>
+                  <span className="leading-relaxed">
+                    Designed, implemented, and audited Solidity and Rust smart
+                    contracts
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1 flex-shrink-0">▹</span>
+                  <span className="leading-relaxed">
+                    Led development of a multi-chain NFT marketplace with fiat
+                    and crypto payments
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1 flex-shrink-0">▹</span>
+                  <span className="leading-relaxed">
+                    Built cross-chain transaction flows and wallet integrations
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1 flex-shrink-0">▹</span>
+                  <span className="leading-relaxed">
+                    Designed microservice architectures with API gateways for
+                    Web3 platforms
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1 flex-shrink-0">▹</span>
+                  <span className="leading-relaxed">
+                    Served as Project Manager / Tech Lead for Web3 teams
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      ),
+    },
+
+    {
+      title: "Present",
+      content: (
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+          <div className="flex-shrink-0 pt-1">
+            <FiBook className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400" />
+          </div>
+          <div className="space-y-2 min-w-0">
+            <h3 className="text-base sm:text-lg font-semibold text-white leading-tight">
+              AI / Machine Learning Engineer
+            </h3>
+            <p className="text-neutral-300 text-xs sm:text-sm leading-relaxed">
+              AI Engineer with proven experience delivering production-grade
+              machine learning systems, specializing in computer vision and
+              medical image analysis. Strong background in model development,
+              MLOps, and cloud deployment, with a track record of translating
+              research into reliable, real-world AI products.
+            </p>
+          </div>
+        </div>
+      ),
+    },
+  ];
   return (
     <div className="w-full px-4 sm:px-6 lg:px-8">
       <Timeline data={data} />

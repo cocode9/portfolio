@@ -69,20 +69,6 @@ const projects: Project[] = [
     link: "https://communepro.vercel.app/",
     github: "https://www.npmjs.com/package/addcomment",
   },
-  {
-    id: 4,
-    title: "Terminal AI Assistant",
-    description:
-      "A powerful CLI tool that helps users interact with the Windows command line using natural language. Built with Node.js and powered by Qwen: Qwen2.5 VL 72B Instruct AI.",
-    media: {
-      type: "youtube",
-      src: "https://youtu.be/TwaQDbr75z4",
-    },
-    tags: ["Node.js", "TypeScript", "Qwen AI", "Commander.js", "Chalk"],
-    link: "https://www.npmjs.com/package/terminal-ai-assistant",
-    github:
-      "https://github.com/Rushikeshnimkar/terminal-ai-assistant-windows.git",
-  },
 ];
 
 // Function to extract YouTube video ID from URL
@@ -339,7 +325,7 @@ export default function Projects() {
                     id={`project-links-${project.id}`}
                     className="flex flex-wrap gap-3 mt-auto"
                   >
-                    <button
+                    {/* <button
                       onClick={(e) => {
                         e.stopPropagation();
                         window.open(project.github, "_blank");
@@ -350,8 +336,8 @@ export default function Projects() {
                     >
                       <FiGithub className="w-4 h-4" />
                       <span>GitHub</span>
-                    </button>
-                    {project.link && (
+                    </button> */}
+                    {/* {project.link && (
                       <button
                         onClick={(e) => {
                           e.stopPropagation();
@@ -364,7 +350,7 @@ export default function Projects() {
                         <FiExternalLink className="w-4 h-4" />
                         <span>Live Demo</span>
                       </button>
-                    )}
+                    )} */}
                   </div>
                 </div>
               </motion.div>

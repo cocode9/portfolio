@@ -1,5 +1,5 @@
 export const characterContent = `
-Rushikesh Nimkar
+Taku Yamamoto
 Full-Stack Engineer
 
 Location: Nagpur

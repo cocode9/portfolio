@@ -1,5 +1,5 @@
 export const defaultMetadata = {
-  title: "Rushikesh Nimkar | Full Stack Developer",
+  title: "Taku Yamamoto",
   description:
     "Full Stack Developer specializing in Next.js, TypeScript, and Blockchain development. View my projects and get in touch for collaboration opportunities.",
   keywords: [

@@ -11,7 +11,11 @@ import { UnifiedAIInput } from "../components/tools/UnifiedAIInput";
 import { useState, useEffect, useCallback, useRef } from "react";
 import GitHub from "./github/page";
 import NeuralBackground from "../components/neural-background";
-import { useThemeHandler, useMessageHandler, initializeChat } from "../components/tools/ai-chat/chat-utils";
+import {
+  useThemeHandler,
+  useMessageHandler,
+  initializeChat,
+} from "../components/tools/ai-chat/chat-utils";
 
 export default function Home() {
   // Theme and Message Handlers
@@ -89,10 +93,10 @@ export default function Home() {
         prev.map((msg, idx) =>
           idx === prev.length - 1
             ? {
-              ...msg,
-              content: response.content,
-              structuredContent: response.structuredContent,
-            }
+                ...msg,
+                content: response.content,
+                structuredContent: response.structuredContent,
+              }
             : msg
         )
       );
@@ -176,45 +180,71 @@ export default function Home() {
       </div>
 
       {/* Main Sections with clear data attributes */}
-      <section id="about" className="scroll-mt-20" data-theme-target="about-section">
+      <section
+        id="about"
+        className="scroll-mt-20"
+        data-theme-target="about-section"
+      >
         <About />
       </section>
 
-      <section id="experience" className="scroll-mt-20" data-theme-target="experience-section">
+      <section
+        id="experience"
+        className="scroll-mt-20"
+        data-theme-target="experience-section"
+      >
         <ExperiencePage />
       </section>
 
-      <section id="skills" className="scroll-mt-20" data-theme-target="skills-section">
+      <section
+        id="skills"
+        className="scroll-mt-20"
+        data-theme-target="skills-section"
+      >
         <Skills />
       </section>
 
-      <section id="projects" className="scroll-mt-20" data-theme-target="projects-section">
+      <section
+        id="projects"
+        className="scroll-mt-20"
+        data-theme-target="projects-section"
+      >
         <Projects />
       </section>
 
-      <section id="github" className="scroll-mt-20" data-theme-target="github-section">
+      <section
+        id="github"
+        className="scroll-mt-20"
+        data-theme-target="github-section"
+      >
         <GitHub />
       </section>
 
-      <section id="contact" className="scroll-mt-20" data-theme-target="contact-section">
+      <section
+        id="contact"
+        className="scroll-mt-20"
+        data-theme-target="contact-section"
+      >
         <Contact />
       </section>
 
       {/* Circular AI Button */}
       {/* Circular AI Button */}
 
-      <button
+      {/* <button
         onClick={handleAIButtonClick}
         className={`fixed bottom-4 right-4 md:bottom-6 md:right-6 w-14 h-14 rounded-full shadow-xl transition-all duration-300 transform z-[60] 
-          ${isChatOpen || isInputVisible
-            ? "bg-neutral-900/80 backdrop-blur-sm border border-indigo-500/50 hover:bg-neutral-800/80 rotate-0 hover:rotate-90"
-            : "bg-gradient-to-r from-indigo-600 to-cyan-600 hover:shadow-[0_0_25px_rgba(99,102,241,0.5)] hover:scale-105"
+          ${
+            isChatOpen || isInputVisible
+              ? "bg-neutral-900/80 backdrop-blur-sm border border-indigo-500/50 hover:bg-neutral-800/80 rotate-0 hover:rotate-90"
+              : "bg-gradient-to-r from-indigo-600 to-cyan-600 hover:shadow-[0_0_25px_rgba(99,102,241,0.5)] hover:scale-105"
           }
           group flex items-center justify-center`}
         style={{
-          boxShadow: isChatOpen || isInputVisible
-            ? "0 0 20px rgba(99, 102, 241, 0.3)"
-            : "0 8px 32px rgba(0, 0, 0, 0.3), 0 0 20px rgba(99, 102, 241, 0.2)",
+          boxShadow:
+            isChatOpen || isInputVisible
+              ? "0 0 20px rgba(99, 102, 241, 0.3)"
+              : "0 8px 32px rgba(0, 0, 0, 0.3), 0 0 20px rgba(99, 102, 241, 0.2)",
         }}
         data-theme-target="chat-button"
       >
@@ -239,7 +269,7 @@ export default function Home() {
             </span>
           </div>
         </div>
-      </button>
+      </button> */}
 
       {/* Unified Input Component - Always on top */}
       <UnifiedAIInput
@@ -279,14 +309,29 @@ export default function Home() {
         }
         /* ... existing styles ... */
         @keyframes blob {
-          0%, 100% { transform: translate(0, 0) scale(1); }
-          25% { transform: translate(-30px, 30px) scale(1.05); }
-          50% { transform: translate(20px, -20px) scale(0.95); }
-          75% { transform: translate(-20px, -20px) scale(1.05); }
+          0%,
+          100% {
+            transform: translate(0, 0) scale(1);
+          }
+          25% {
+            transform: translate(-30px, 30px) scale(1.05);
+          }
+          50% {
+            transform: translate(20px, -20px) scale(0.95);
+          }
+          75% {
+            transform: translate(-20px, -20px) scale(1.05);
+          }
         }
-        .animate-blob { animation: blob 15s infinite alternate; }
-        .animation-delay-2000 { animation-delay: 2s; }
-        .animation-delay-4000 { animation-delay: 4s; }
+        .animate-blob {
+          animation: blob 15s infinite alternate;
+        }
+        .animation-delay-2000 {
+          animation-delay: 2s;
+        }
+        .animation-delay-4000 {
+          animation-delay: 4s;
+        }
       `}</style>
     </main>
   );
