@@ -57,6 +57,9 @@ export default function ExperiencePage() {
                   <span className="px-2 py-1 bg-blue-500/10 text-blue-400 text-xs rounded-full whitespace-nowrap">
                     Delicacy
                   </span>
+                  <span className="px-2 py-1 bg-blue-500/10 text-blue-400 text-xs rounded-full whitespace-nowrap">
+                    Responsive
+                  </span>
                 </div>
               </div>
             </div>

@@ -6,12 +6,12 @@ import { useEffect, useState } from "react";
 
 export default function ResumePage() {
   const [mounted, setMounted] = useState(false);
-  const nameLetters = "Rushikesh Nimkar Resume ".split("");
+  const nameLetters = "Taku Yamamoto ".split("");
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setMounted(true);
-    }, 800); 
+    }, 800);
 
     return () => clearTimeout(timer);
   }, []);
@@ -90,8 +90,8 @@ export default function ResumePage() {
                   Resume
                 </h1>
                 <p className="text-neutral-400 mt-2 max-w-2xl">
-                  My qualifications, experience, and skills presented in a
-                  comprehensive document.
+                  I will do my best to live up to the faith of everyone who
+                  believes in me, today and in the future.
                 </p>
               </motion.div>
 
@@ -108,7 +108,7 @@ export default function ResumePage() {
                       <h2 className="text-lg sm:text-xl font-semibold text-white">
                         About This Resume
                       </h2>
-                      <p className="text-blue-400 text-sm">Interactive guide</p>
+                      <p className="text-blue-400 text-sm">I Believe Myself</p>
                     </div>
 
                     <div className="space-y-4 sm:space-y-6 flex-1">
@@ -122,10 +122,10 @@ export default function ResumePage() {
                           </h3>
                         </div>
                         <p className="text-sm text-neutral-400">
-                          My resume highlights expertise in full-stack
-                          development with React, Node.js, and modern web
-                          technologies. I specialize in building responsive,
-                          accessible, and performant web applications.
+                          Senior Full-Stack Engineer specializing in scalable,
+                          high-performance web applications using React,
+                          Node.js, and modern architectures, with a strong focus
+                          on reliability and user experience.
                         </p>
                       </div>
 
@@ -163,11 +163,9 @@ export default function ResumePage() {
                           </h3>
                         </div>
                         <p className="text-sm text-neutral-400">
-                          I bring a combination of technical expertise,
-                          problem-solving abilities, and collaborative skills to
-                          every project. My passion for clean code and
-                          user-centric design drives me to create exceptional
-                          digital experiences.
+                          Senior Full-Stack Engineer who builds scalable,
+                          secure, and high-impact products, helping clients ship
+                          faster, reduce risk, and grow with confidence.
                         </p>
                       </div>
                     </div>
@@ -183,7 +181,7 @@ export default function ResumePage() {
                       </div>
                       <div className="flex gap-3 flex-wrap">
                         <a
-                          href="https://github.com/Rushikeshnimkar"
+                          href="https://github.com/cocode9"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="w-8 h-8 rounded-full bg-neutral-800 flex items-center justify-center hover:bg-neutral-700 transition-colors"
@@ -202,8 +200,7 @@ export default function ResumePage() {
                           </svg>
                         </a>
                         <a
-                          href="https://www.linkedin.com/in/rushikesh-nimkar-0961361ba/"
-                          target="_blank"
+                          href="#"
                           rel="noopener noreferrer"
                           className="w-8 h-8 rounded-full bg-neutral-800 flex items-center justify-center hover:bg-neutral-700 transition-colors"
                         >
@@ -214,21 +211,6 @@ export default function ResumePage() {
                             aria-hidden="true"
                           >
                             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                          </svg>
-                        </a>
-                        <a
-                          href="https://x.com/RushikeshN22296"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="w-8 h-8 rounded-full bg-neutral-800 flex items-center justify-center hover:bg-neutral-700 transition-colors"
-                        >
-                          <svg
-                            className="w-4 h-4"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                            aria-hidden="true"
-                          >
-                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                           </svg>
                         </a>
                       </div>

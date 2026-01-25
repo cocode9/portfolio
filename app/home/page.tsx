@@ -192,10 +192,7 @@ export default function HomePage() {
                     <div className="absolute inset-[2px] bg-[#2a2a2a] rounded-[4px]" />
                     <button
                       onClick={() =>
-                        window.open(
-                          "https://github.com/sponsors/Rushikeshnimkar",
-                          "_blank"
-                        )
+                        window.open("https://github.com/cocode9", "_blank")
                       }
                       className="relative z-10 w-full px-6 py-[6px] flex items-center justify-center gap-2 text-sm md:text-base"
                     >
