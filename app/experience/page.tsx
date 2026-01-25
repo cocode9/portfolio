@@ -5,7 +5,7 @@ import { FiMapPin, FiAward, FiBriefcase, FiBook } from "react-icons/fi";
 export default function ExperiencePage() {
   const data = [
     {
-      title: "Jump in Dev World",
+      title: "Jump in Development's Sea",
       content: (
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
           <div className="flex-shrink-0 pt-1">
