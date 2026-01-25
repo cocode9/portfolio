@@ -447,7 +447,7 @@ export default function Projects() {
                     variants={modalContentVariants}
                     className="space-y-4 pt-4"
                   >
-                    <h3 className="text-lg font-semibold text-neutral-200 uppercase tracking-wide">
+                    {/* <h3 className="text-lg font-semibold text-neutral-200 uppercase tracking-wide">
                       Links
                     </h3>
                     <div className="flex flex-col sm:flex-row gap-4">
@@ -471,7 +471,7 @@ export default function Projects() {
                           <span>Live Demo</span>
                         </button>
                       )}
-                    </div>
+                    </div> */}
                   </motion.div>
                 </div>
               </motion.div>
