@@ -13,23 +13,16 @@ export default function ExperiencePage() {
           </div>
           <div className="space-y-4 min-w-0">
             <h3 className="text-base sm:text-lg font-semibold text-white leading-tight">
-              Hackathon Achievements
+              Designer
             </h3>
 
             {/* Solana Radar Hackathon */}
             <div className="space-y-2">
               <div className="flex items-start sm:items-center gap-3">
                 <span className="flex-shrink-0 w-2 h-2 rounded-full bg-blue-400 mt-2 sm:mt-0" />
-                <a
-                  href="https://arena.colosseum.org/projects/explore/netsepio?previous=L3Byb2plY3RzL2V4cGxvcmU_c2VlZD1iNGI0ZTYwYzViNGE0NzkwJnNlYXJjaD1uZXRzZXA&ref=blog.colosseum.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group min-w-0"
-                >
+                <a href="#" rel="noopener noreferrer" className="group min-w-0">
                   <h4 className="text-white font-medium hover:text-blue-400 transition-colors duration-200 inline-flex items-start sm:items-center gap-1 text-sm sm:text-base leading-tight">
-                    <span className="break-words">
-                      Solana Radar Hackathon 2024
-                    </span>
+                    <span className="break-words">Beautiful Year - 2026</span>
                     <svg
                       className="w-3 h-3 sm:w-4 sm:h-4 opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0 mt-0.5 sm:mt-0"
                       fill="none"
@@ -48,17 +41,21 @@ export default function ExperiencePage() {
               </div>
               <div className="pl-3 sm:pl-5">
                 <p className="text-neutral-300 text-xs sm:text-sm leading-relaxed">
-                  Achieved{" "}
-                  <span className="text-blue-400 font-medium">4th place</span>{" "}
-                  out of 200+ global teams, demonstrating expertise in
-                  blockchain technology and innovative problem-solving.
+                  I create designer experiences that are intuitive, visually
+                  striking, and user-focused. Every detail is crafted to save
+                  time, enhance usability, and deliver memorable, seamless
+                  interactions. Your project will benefit from thoughtful design
+                  that works{" "}
+                  <span className="text-blue-400 font-medium">beautifully</span>{" "}
+                  and{" "}
+                  <span className="text-blue-400 font-medium">efficiently</span>
                 </p>
                 <div className="flex flex-wrap gap-1.5 sm:gap-2 mt-2">
                   <span className="px-2 py-1 bg-blue-500/10 text-blue-400 text-xs rounded-full whitespace-nowrap">
-                    Global Competition
+                    Beauty
                   </span>
                   <span className="px-2 py-1 bg-blue-500/10 text-blue-400 text-xs rounded-full whitespace-nowrap">
-                    200+ Teams
+                    Delicacy
                   </span>
                 </div>
               </div>
@@ -78,11 +75,6 @@ export default function ExperiencePage() {
             <h3 className="text-base sm:text-lg font-semibold text-white leading-tight">
               Fullstack Developer
             </h3>
-            <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 text-neutral-400 text-xs sm:text-sm">
-              <span className="font-medium">Lazarus Network</span>
-              <span className="hidden sm:inline">•</span>
-              <span>Remote</span>
-            </div>
             <div className="space-y-3 text-xs sm:text-sm text-neutral-300">
               <p className="leading-relaxed">
                 Full-stack development role focusing on building scalable web
