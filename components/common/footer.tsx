@@ -1,6 +1,6 @@
 "use client";
 import { FaGithub, FaLinkedin, FaDiscord } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaTelegram } from "react-icons/fa6";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -12,7 +12,7 @@ export function Footer() {
           {/* Social Links */}
           <div className="flex space-x-6">
             <a
-              href="https://github.com/taku"
+              href="https://github.com/cocode9"
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-400 hover:text-blue-500 transition-colors"
@@ -21,7 +21,6 @@ export function Footer() {
             </a>
             <a
               href="#"
-              target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-400 hover:text-blue-500 transition-colors"
             >
@@ -29,14 +28,13 @@ export function Footer() {
             </a>
             <a
               href="#"
-              target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-400 hover:text-blue-500 transition-colors"
             >
-              <FaXTwitter size={20} />
+              <FaTelegram size={20} />
             </a>
             <a
-              href="https://discord.com/users/748192618659315753"
+              href="https://discord.com/users/asd_0519"
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-400 hover:text-blue-500 transition-colors"

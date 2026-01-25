@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 import { FaGithub, FaLinkedin, FaDiscord } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaTelegram } from "react-icons/fa6";
 import Head from "next/head";
 import MagneticButton from "@/components/ui/magnetic-button";
 import { TiltCard } from "@/components/ui/tilt-card";
@@ -221,7 +221,7 @@ export default function HomePage() {
               >
                 <MagneticButton>
                   <a
-                    href="https://github.com/taku"
+                    href="https://github.com/cocode9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-500 transition-colors duration-300 block p-2"
@@ -232,7 +232,6 @@ export default function HomePage() {
                 <MagneticButton>
                   <a
                     href="#"
-                    target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-500 transition-colors duration-300 block p-2"
                   >
@@ -242,16 +241,15 @@ export default function HomePage() {
                 <MagneticButton>
                   <a
                     href="#"
-                    target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-500 transition-colors duration-300 block p-2"
                   >
-                    <FaXTwitter size={24} />
+                    <FaTelegram size={24} />
                   </a>
                 </MagneticButton>
                 <MagneticButton>
                   <a
-                    href="https://discord.com/users/748192618659315753"
+                    href="https://discord.com/users/asd_0519"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-500 transition-colors duration-300 block p-2"

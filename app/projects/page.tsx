@@ -324,34 +324,7 @@ export default function Projects() {
                   <div
                     id={`project-links-${project.id}`}
                     className="flex flex-wrap gap-3 mt-auto"
-                  >
-                    {/* <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        window.open(project.github, "_blank");
-                      }}
-                      className="flex items-center gap-2 text-white/80 hover:text-white bg-neutral-800 hover:bg-neutral-700 px-3 py-1.5 rounded-lg transition-colors text-xs sm:text-sm"
-                      aria-label={`View source code for ${project.title} on GitHub`}
-                      title="View on GitHub"
-                    >
-                      <FiGithub className="w-4 h-4" />
-                      <span>GitHub</span>
-                    </button> */}
-                    {/* {project.link && (
-                      <button
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          window.open(project.link, "_blank");
-                        }}
-                        className="flex items-center gap-2 text-white/90 hover:text-white bg-blue-600/80 hover:bg-blue-600 px-3 py-1.5 rounded-lg transition-colors text-xs sm:text-sm"
-                        aria-label={`View live demo of ${project.title}`}
-                        title="View Live Demo"
-                      >
-                        <FiExternalLink className="w-4 h-4" />
-                        <span>Live Demo</span>
-                      </button>
-                    )} */}
-                  </div>
+                  ></div>
                 </div>
               </motion.div>
             ))}
