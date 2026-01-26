@@ -212,7 +212,7 @@ export default function Home() {
         <Projects />
       </section>
 
-      <section
+      {/* <section
         id="github"
         className="scroll-mt-20"
         data-theme-target="github-section"
@@ -226,7 +226,7 @@ export default function Home() {
         data-theme-target="contact-section"
       >
         <Contact />
-      </section>
+      </section> */}
 
       {/* Circular AI Button */}
       {/* Circular AI Button */}
