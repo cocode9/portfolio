@@ -19,13 +19,13 @@ export function Footer() {
             >
               <FaGithub size={20} />
             </a>
-            <a
+            {/* <a
               href="#"
               rel="noopener noreferrer"
               className="text-neutral-400 hover:text-blue-500 transition-colors"
             >
               <FaLinkedin size={20} />
-            </a>
+            </a> */}
             <a
               href="#"
               rel="noopener noreferrer"

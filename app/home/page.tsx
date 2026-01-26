@@ -226,7 +226,7 @@ export default function HomePage() {
                     <FaGithub size={24} />
                   </a>
                 </MagneticButton>
-                <MagneticButton>
+                {/* <MagneticButton>
                   <a
                     href="#"
                     rel="noopener noreferrer"
@@ -234,7 +234,7 @@ export default function HomePage() {
                   >
                     <FaLinkedin size={24} />
                   </a>
-                </MagneticButton>
+                </MagneticButton> */}
                 <MagneticButton>
                   <a
                     href="#"
