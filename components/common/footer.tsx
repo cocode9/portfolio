@@ -27,7 +27,7 @@ export function Footer() {
               <FaLinkedin size={20} />
             </a> */}
             <a
-              href="#"
+              href="https://telegram/@vin010604"
               rel="noopener noreferrer"
               className="text-neutral-400 hover:text-blue-500 transition-colors"
             >

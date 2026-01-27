@@ -237,7 +237,7 @@ export default function HomePage() {
                 </MagneticButton> */}
                 <MagneticButton>
                   <a
-                    href="#"
+                    href="https://telegram/@vin010604"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-500 transition-colors duration-300 block p-2"
                   >
