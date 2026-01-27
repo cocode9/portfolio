@@ -170,7 +170,7 @@ export default function ResumePage() {
                       </div>
                     </div>
 
-                    <div className="mt-auto pt-4 sm:pt-6 border-t border-neutral-800/50">
+                    {/* <div className="mt-auto pt-4 sm:pt-6 border-t border-neutral-800/50">
                       <div className="flex items-center gap-2 mb-3">
                         <div className="w-8 h-8 rounded-lg bg-orange-500/20 flex items-center justify-center">
                           <FiGlobe className="text-orange-400" />
@@ -178,8 +178,8 @@ export default function ResumePage() {
                         <h3 className="text-sm font-medium text-neutral-300 uppercase tracking-wider">
                           Connect
                         </h3>
-                      </div>
-                      {/* <div className="flex gap-3 flex-wrap">
+                      </div> */}
+                    {/* <div className="flex gap-3 flex-wrap">
                         <a
                           href="https://github.com/cocode9"
                           target="_blank"
@@ -214,7 +214,7 @@ export default function ResumePage() {
                           </svg>
                         </a>
                       </div> */}
-                    </div>
+                    {/* </div> */}
                   </div>
 
                   {/* Main PDF viewer */}
