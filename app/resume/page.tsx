@@ -180,7 +180,7 @@ export default function ResumePage() {
                         </h3>
                       </div>
                       <div className="flex gap-3 flex-wrap">
-                        <a
+                        {/* <a
                           href="https://github.com/cocode9"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -198,7 +198,7 @@ export default function ResumePage() {
                               clipRule="evenodd"
                             />
                           </svg>
-                        </a>
+                        </a> */}
                         <a
                           href="#"
                           rel="noopener noreferrer"
