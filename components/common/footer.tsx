@@ -11,14 +11,14 @@ export function Footer() {
         <div className="flex flex-col items-center space-y-4 ">
           {/* Social Links */}
           <div className="flex space-x-6">
-            <a
+            {/* <a
               href="https://github.com/cocode9"
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-400 hover:text-blue-500 transition-colors"
             >
               <FaGithub size={20} />
-            </a>
+            </a> */}
             {/* <a
               href="#"
               rel="noopener noreferrer"

@@ -190,12 +190,12 @@ export default function HomePage() {
                       <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 animate-gradient-xy opacity-70 group-hover:opacity-100 transition-opacity" />
                     </div>
                     <div className="absolute inset-[2px] bg-[#2a2a2a] rounded-[4px]" />
-                    <button
+                    {/* <button
                       onClick={() =>
                         window.open("https://github.com/cocode9", "_blank")
                       }
                       className="relative z-10 w-full px-6 py-[6px] flex items-center justify-center gap-2 text-sm md:text-base"
-                    >
+                    > */}
                       <span className="text-white">Target</span>
                       <svg
                         height="16"
@@ -216,7 +216,7 @@ export default function HomePage() {
                 id="home-social-links"
                 className="flex gap-6 items-center mt-4 sm:mt-0"
               >
-                <MagneticButton>
+                {/* <MagneticButton>
                   <a
                     href="https://github.com/cocode9"
                     target="_blank"
@@ -225,7 +225,7 @@ export default function HomePage() {
                   >
                     <FaGithub size={24} />
                   </a>
-                </MagneticButton>
+                </MagneticButton> */}
                 {/* <MagneticButton>
                   <a
                     href="#"
