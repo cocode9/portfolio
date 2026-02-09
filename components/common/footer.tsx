@@ -45,7 +45,7 @@ export function Footer() {
 
           {/* Copyright */}
           <div className="text-neutral-500 text-sm">
-            <p>© {currentYear} Taku Yamamoto</p>
+            <p>© {currentYear} Hung Phu</p>
           </div>
         </div>
       </div>

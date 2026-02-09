@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 export default function ResumePage() {
   const [mounted, setMounted] = useState(false);
-  const nameLetters = "Taku Yamamoto ".split("");
+  const nameLetters = "Hung Phu ".split("");
 
   useEffect(() => {
     const timer = setTimeout(() => {

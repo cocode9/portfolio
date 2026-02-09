@@ -116,7 +116,7 @@ export default function HomePage() {
             >
               <span className="text-white">Hi, I&apos;m</span>{" "}
               <br className="hidden sm:block" />
-              <span className="text-blue-500">Taku Yamamoto</span>
+              <span className="text-blue-500">Hung Phu</span>
             </div>
 
             <div
