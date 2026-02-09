@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 import { FaGithub, FaLinkedin, FaDiscord } from "react-icons/fa";
-import { FaTelegram } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa6";
 import Head from "next/head";
 import MagneticButton from "@/components/ui/magnetic-button";
 import { TiltCard } from "@/components/ui/tilt-card";
@@ -156,7 +156,7 @@ export default function HomePage() {
                       <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 animate-gradient-xy opacity-70 group-hover:opacity-100 transition-opacity" />
                     </div>
                     <div className="absolute inset-[2px] bg-[#2a2a2a] rounded-[4px]" />
-                    <button
+                    {/* <button
                       onClick={() => (window.location.href = "/resume")}
                       className="relative z-10 w-full px-6 py-[6px] flex items-center justify-center gap-2 text-sm md:text-base"
                     >
@@ -176,7 +176,7 @@ export default function HomePage() {
                         <line x1="12" y1="18" x2="12" y2="12" />
                         <line x1="9" y1="15" x2="15" y2="15" />
                       </svg>
-                    </button>
+                    </button> */}
                   </div>
                 </MagneticButton>
 
@@ -237,21 +237,31 @@ export default function HomePage() {
                 </MagneticButton> */}
                 <MagneticButton>
                   <a
-                    href="https://telegram/@vin010604"
+                    href="https://www.facebook.com/phunlh2001/"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-500 transition-colors duration-300 block p-2"
                   >
-                    <FaTelegram size={24} />
+                    <FaFacebook size={24} />
                   </a>
                 </MagneticButton>
                 <MagneticButton>
                   <a
-                    href="https://discord.com/users/asd_0519"
+                    href="https://www.linkedin.com/in/phunlh2001/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-500 transition-colors duration-300 block p-2"
                   >
-                    <FaDiscord size={24} />
+                    <FaLinkedin size={24} />
+                  </a>
+                </MagneticButton>
+                <MagneticButton>
+                  <a
+                    href="https://github.com/geeky02"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-blue-500 transition-colors duration-300 block p-2"
+                  >
+                    <FaGithub size={24} />
                   </a>
                 </MagneticButton>
               </div>
