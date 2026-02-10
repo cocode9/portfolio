@@ -1,5 +1,5 @@
 export const characterContent = `
-Hung Phu
+Nguyen Le Hung Phu
 Full-Stack Engineer
 
 Location: Nagpur
